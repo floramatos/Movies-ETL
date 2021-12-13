@@ -15,6 +15,7 @@ To extract the data, a function named extract_transform_load() was defined in ju
 
 Figure 1
 Defining Function to Extract Data Files
+
 ![Screen Shot 2021-12-13 at 10 53 26 AM](https://user-images.githubusercontent.com/89421440/145876276-aaf4484a-b191-4c97-b283-9e8b1ba54916.png)
 
 
@@ -22,6 +23,7 @@ To transform the data, some steps were performed. First, a function named clean_
 
 Figure 2
 Defining Function to Clean Data
+
 ![Screen Shot 2021-12-13 at 11 10 43 AM](https://user-images.githubusercontent.com/89421440/145876376-1ec30ad7-1758-428d-886e-9ba3245d9e67.png)
 
 
@@ -29,6 +31,7 @@ Second, regular expressions were used to clean a few columns in the wiki_movies_
 
 Figure 3
 Cleaning ‘Budget’ Column
+
 ![Screen Shot 2021-12-13 at 11 14 28 AM](https://user-images.githubusercontent.com/89421440/145876427-db674bf4-250c-412f-a235-4355a56d3ae7.png)
 
 
@@ -36,6 +39,7 @@ Third, the cleaned data frames were merged and further cleaning was performed.
 
 Figure 4
 Merging Cleaned Dataframes
+
 ![Screen Shot 2021-12-13 at 11 21 42 AM](https://user-images.githubusercontent.com/89421440/145876448-a83fb374-2eda-4294-868b-2dd7f1568d41.png)
 
 
@@ -43,6 +47,7 @@ Finally, the merged data frames were loaded by adding the data to a PostgreSQL d
 
 Figure 5
 Connecting to the PostgreSQL database
+
 ![Screen Shot 2021-12-13 at 11 22 10 AM](https://user-images.githubusercontent.com/89421440/145876473-d07e22ca-0349-49f7-91ea-0708497d1be7.png)
 
 
